@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/dp10"
+    android:paddingLeft="@dimen/dp5"
+    android:paddingRight="@dimen/dp5"
+    android:paddingTop="@dimen/dp10">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="@dimen/dp35"
+            android:layout_height="@dimen/dp35">
+
+            <ImageView
+                android:id="@+id/image_default1"
+                style="@style/NormalImageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/gray_logo_ball" />
+
+            <ImageView
+                android:id="@+id/image_logo1"
+                style="@style/NormalImageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </FrameLayout>
+
+        <views.LightTextView
+            android:id="@+id/text_title1"
+            style="@style/MatchesItemTitleText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:ellipsize="end"
+            android:gravity="left"
+            android:text="Paris Saint G.Paris Saint G." />
+    </LinearLayout>
+
+    <views.BoldTextView
+        android:id="@+id/text_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="22:55\nfinished"
+        android:textAllCaps="true"
+        android:textColor="@color/dark_gray_text"
+        android:textSize="@dimen/sp13" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <views.LightTextView
+            android:id="@+id/text_title2"
+            style="@style/MatchesItemTitleText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:ellipsize="start"
+            android:gravity="right"
+            android:text="Paris Saint G.Paris Saint G." />
+
+        <FrameLayout
+            android:layout_width="@dimen/dp35"
+            android:layout_height="@dimen/dp35">
+
+            <ImageView
+                android:id="@+id/image_default2"
+                style="@style/NormalImageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/gray_logo_ball" />
+
+            <ImageView
+                android:id="@+id/image_logo2"
+                style="@style/NormalImageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

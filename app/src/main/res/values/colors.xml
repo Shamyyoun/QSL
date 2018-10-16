@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#861950</color>
+    <color name="primary_dark">#61133a</color>
+    <color name="screen_bg">#e2e2e2</color>
+    <color name="dark_gray_text">#363636</color>
+    <color name="light_gray_text">#737373</color>
+    <color name="default_image_bg">#e4e4e4</color>
+    <color name="msg_view_bg_pressed">#3c000000</color>
+    <color name="recycler_header_bg">#B5B5B5</color>
+    <color name="matches_item_bg1">#fefaf7</color>
+    <color name="matches_item_bg2">#f1f5f8</color>
+</resources>

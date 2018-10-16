@@ -1,0 +1,74 @@
+<resources>
+
+    <!-- Normal ImageView -->
+    <style name="NormalImageView">
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <!-- Cropped ImageView -->
+    <style name="CroppedImageView">
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <!-- Recycler Header Text-->
+    <style name="RecyclerHeaderText">
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Recycler Content Text-->
+    <style name="RecyclerContentText">
+        <item name="android:textColor">@color/dark_gray_text</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Standings Row -->
+    <style name="StandingsRow">
+        <item name="android:paddingTop">@dimen/dp5</item>
+        <item name="android:paddingBottom">@dimen/dp5</item>
+        <item name="android:paddingLeft">@dimen/dp10</item>
+        <item name="android:paddingRight">@dimen/dp10</item>
+    </style>
+
+    <!-- Standing Header Text-->
+    <style name="StandingHeaderText" parent="RecyclerHeaderText">
+        <item name="android:textSize">@dimen/sp13</item>
+    </style>
+
+    <!-- Standing Content Text-->
+    <style name="StandingContentText" parent="RecyclerContentText">
+        <item name="android:textSize">@dimen/sp14</item>
+    </style>
+
+    <!-- Professionals Row -->
+    <style name="ProfessionalsRow">
+        <item name="android:paddingTop">@dimen/dp5</item>
+        <item name="android:paddingBottom">@dimen/dp5</item>
+        <item name="android:paddingLeft">@dimen/dp10</item>
+        <item name="android:paddingRight">@dimen/dp10</item>
+    </style>
+
+    <!-- Professional Header Text-->
+    <style name="ProfessionalHeaderText" parent="RecyclerHeaderText">
+        <item name="android:textSize">@dimen/sp14</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:layout_marginLeft">@dimen/dp5</item>
+    </style>
+
+    <!-- Professional Content Text-->
+    <style name="ProfessionalContentText" parent="RecyclerContentText">
+        <item name="android:textSize">@dimen/sp14</item>
+        <item name="android:layout_marginLeft">@dimen/dp5</item>
+    </style>
+
+    <!-- Match Item Title Text -->
+    <style name="MatchesItemTitleText">
+        <item name="android:singleLine">true</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textColor">@color/dark_gray_text</item>
+        <item name="android:textSize">@dimen/sp14</item>
+        <item name="android:layout_margin">@dimen/dp5</item>
+    </style>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ProfessionalsRow"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:orientation="horizontal">
+
+        <views.LightTextView
+            android:id="@+id/text_position"
+            style="@style/ProfessionalContentText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="111-" />
+
+        <views.LightTextView
+            android:id="@+id/text_name"
+            style="@style/ProfessionalContentText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4.5"
+            android:ellipsize="end"
+            android:gravity="left"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="Name" />
+    </LinearLayout>
+
+    <views.LightTextView
+        android:id="@+id/text_teamName"
+        style="@style/ProfessionalContentText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Team" />
+
+    <views.LightTextView
+        android:id="@+id/text_count"
+        style="@style/ProfessionalContentText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/dp5"
+        android:layout_weight="1"
+        android:text="Goals" />
+</LinearLayout>

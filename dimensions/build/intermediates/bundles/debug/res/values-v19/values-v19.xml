@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/E:/Android/AndroidStudioProjects/QSL/dimensions/src/main/res/values-v19/dimens.xml -->
+    <eat-comment/>
+    <dimen name="transparent_screen_bottom_padding">40dp</dimen>
+    <dimen name="transparent_screen_top_padding">20dp</dimen>
+</resources>
